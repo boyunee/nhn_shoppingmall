@@ -1,22 +1,18 @@
 package com.nhnacademy.shoppingmall.common.mvc.servlet;
 
-import com.nhnacademy.shoppingmall.common.initialize.WebAppInitializer;
-import com.nhnacademy.shoppingmall.common.mvc.transaction.DbConnectionThreadLocal;
-import com.nhnacademy.shoppingmall.common.mvc.view.ViewResolver;
 import com.nhnacademy.shoppingmall.common.mvc.controller.BaseController;
 import com.nhnacademy.shoppingmall.common.mvc.controller.ControllerFactory;
-
+import com.nhnacademy.shoppingmall.common.mvc.transaction.DbConnectionThreadLocal;
+import com.nhnacademy.shoppingmall.common.mvc.view.ViewResolver;
 import lombok.extern.slf4j.Slf4j;
+
 import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import java.sql.Connection;
-import java.sql.SQLException;
 
 import static com.nhnacademy.shoppingmall.common.mvc.controller.ControllerFactory.CONTEXT_CONTROLLER_FACTORY_NAME;
 

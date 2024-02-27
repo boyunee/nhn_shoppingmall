@@ -5,10 +5,8 @@ import com.nhnacademy.shoppingmall.common.mvc.exception.ControllerNotFoundExcept
 import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.ServletContext;
-import javax.servlet.annotation.HandlesTypes;
 import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.InvocationTargetException;
-import java.security.Key;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;

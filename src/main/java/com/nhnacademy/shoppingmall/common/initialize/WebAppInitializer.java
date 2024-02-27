@@ -3,6 +3,7 @@ package com.nhnacademy.shoppingmall.common.initialize;
 import com.nhnacademy.shoppingmall.common.mvc.controller.BaseController;
 import com.nhnacademy.shoppingmall.common.mvc.controller.ControllerFactory;
 import lombok.extern.slf4j.Slf4j;
+
 import javax.servlet.ServletContainerInitializer;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
